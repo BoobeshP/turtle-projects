@@ -1,0 +1,13 @@
+from  turtle import *
+hideturtle()
+color("blue")
+begin_fill()
+pensize(5)
+left(50)
+fd(133)
+circle(50,200)
+right(140)
+circle(50,200)
+fd(133)
+end_fill()
+done()
