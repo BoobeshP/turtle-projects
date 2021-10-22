@@ -1,0 +1,22 @@
+import turtle as t
+a=t.Turtle()
+b=t.Screen()
+b.setup(520,420)
+b.bgcolor("black")
+a.hideturtle()
+a.pensize(5)
+a.penup()
+a.setpos(-90,30)
+a.pendown()
+clr=['tomato','green','blue','orange','purple']
+for i in range(5):
+    a.pencolor(clr[i])
+    a.fd(200)
+    a.right(144)
+a.penup()
+a.setpos(80,-140)
+a.pendown()
+a.pencolor("yellow")
+a.write("python graphics",font=("Arial",12,"normal"))
+a.ht()
+t.done()
